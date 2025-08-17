@@ -307,6 +307,20 @@ class _HomeScreenState extends State<HomeScreen> {
                     }
                   }
               ),
+             // const SizedBox(height: 30),
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 0),
+                  child: Text(
+                    '© 2025 Forecastly by Sayed Nahid',
+                    style: TextStyle(
+                      color: Colors.white54,
+                      fontSize: 10,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
